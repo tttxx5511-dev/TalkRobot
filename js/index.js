@@ -3,7 +3,7 @@
     const user = resp.data;
     if(user===null){
         alert('未登录');
-        location.href = './login.html';
+        window.location.href = '/TalkRobot./login.html';
         return;
     }
 
