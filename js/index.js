@@ -25,7 +25,7 @@
     // 注销事件
       doms.close.onclick = function(){ 
         API.loginOut();
-        window.location.href = '/TalkRobot/login.html'
+        location.href = './login.html'
     }
 
     // 加载历史记录
